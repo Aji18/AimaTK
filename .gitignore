@@ -1,9 +1,8 @@
-/.idea
-/server/pvendor/Ydm/config.php
-/server/vendor
-server/.idea/workspace.xml
-server/.idea/vcs.xml
-server/.idea/server.iml
-server/.idea/php.xml
-server/.idea/modules.xml
-server/.idea/misc.xml
+.idea
+
+server/.idea
+server/vendor
+server/pvendor/Ydm/config.php
+
+client/.idea
+client/node_modules
