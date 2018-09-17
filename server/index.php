@@ -17,6 +17,9 @@ function stdToArray($obj){
 
 $klein = new \Klein\Klein();
 $klein->respond(function ($req, $res, $src, $app) use ($klein) {
+    $klein->response()->header('Access-Control-Allow-Origin', 'http://localhost:3000');
+    $klein->response()->header('Access-Control-Allow-Credentials', 'true');
+
     $app->requester = new \Ydm\Requester;
     $app->register('db', function() {
         \Ydm\Database::connect();

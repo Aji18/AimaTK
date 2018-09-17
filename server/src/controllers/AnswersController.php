@@ -49,8 +49,8 @@ class AnswersController {
         $requested = $app->requester::validate($req->params(), [
             'uuid'      => 'string|trim',
         ]);
-        $institute = $app->db::find('institutes', 'user_id = ?', [$requested['uuid']]);
-        $res->json(stdToArray($institute));
+        $institute = $app->db::findOne('institutes', 'user_id = ?', [$requested['uuid']]);
+        $res->json($institute);
     }
     public static function addInstitute(\Klein\Request $req, \Klein\Response $res, $src, $app) {
         $requested = $app->requester::validate($req->params(), [

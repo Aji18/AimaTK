@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="margin: 0; padding: 0">
+
+<canvas id="canvas" style="padding: 0;margin: 0">
+    Your browser does not support the HTML5 canvas tag.
+</canvas>
+<p id="fps"></p>
+<p id="pos"></p>
+<script>
+    let c = document.getElementById("canvas");
+    let pos = document.getElementById('pos');
+    let fpsDisplay = document.getElementById('fps');
+    c.style.width = '641px';
+    c.style.height = '481px';
+    c.width = 641;
+    c.height = 481;
+    let ctx = c.getContext("2d");
+
+    let snap = [
+        { x: 200, y: 30 },
+        //{ x: 200, y: 60 },
+        //{ x: 200, y: 90 },
+        { x: 200, y: 120 },
+        //{ x: 200, y: 150 },
+        //{ x: 200, y: 180 },
+        { x: 200, y: 210 },
+        //{ x: 200, y: 240 },
+        //{ x: 200, y: 270 },
+        { x: 200, y: 300 },
+        //{ x: 200, y: 330 },
+        //{ x: 200, y: 360 },
+        { x: 200, y: 390 },
+        //{ x: 200, y: 420 },
+        //{ x: 200, y: 450 },
+        { x: 400, y: 30 },
+        //{ x: 400, y: 60 },
+        //{ x: 400, y: 90 },
+        { x: 400, y: 120 },
+        //{ x: 400, y: 150 },
+        //{ x: 400, y: 180 },
+        { x: 400, y: 210 },
+        //{ x: 400, y: 240 },
+        //{ x: 400, y: 270 },
+        { x: 400, y: 300 },
+        //{ x: 400, y: 330 },
+        //{ x: 400, y: 360 },
+        { x: 400, y: 390 },
+        //{ x: 400, y: 420 },
+        //{ x: 400, y: 450 },
+    ];
+
+    let p = 0;
+    function drawBoard(){
+        for (let x = 0; x <= 640; x += 640) {
+            ctx.moveTo(0.5 + x + p, p);
+            ctx.lineTo(0.5 + x + p, window.innerWidth + p);
+        }
+
+        for (let x = 0; x <= 480; x += 480) {
+            ctx.moveTo(p, 0.5 + x + p);
+            ctx.lineTo(window.innerHeight + p, 0.5 + x + p);
+        }
+
+        ctx.strokeStyle = "black";
+        ctx.stroke();
+
+        snap.forEach(s => {
+            ctx.beginPath();
+            ctx.strokeRect(s.x, s.y, 1, 1);
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, 24, 0, 2 * Math.PI, true);
+            ctx.stroke();
+        });
+    }
+    drawBoard();
+
+    let now = { x: 0, y: 0 };
+    let selected = undefined;
+    let snapped = false;
+    let snapping = true;
+    let drawed = false;
+    function getCursorPosition(canvas, event) {
+        let rect = canvas.getBoundingClientRect();
+        let x = event.clientX - rect.left;
+        let y = event.clientY - rect.top;
+        pos.innerText = "x: " + x + " y: " + y;
+
+        now = { x, y };
+    }
+    function mouseClick() {
+        if (snapped || !snapping) {
+            if (!selected && !drawed) {
+                selected = now;
+            } else {
+                drawed = true;
+            }
+        }
+    }
+
+    c.addEventListener('mousemove', function(evt) {
+        getCursorPosition(c, evt);
+    }, false);
+    c.addEventListener('click', function(evt) {
+        mouseClick(c, evt);
+    }, false);
+
+    let fps = 0;
+    let lastCalledTime = performance.now();
+    let selected2 = now;
+    function update() {
+        window.requestAnimationFrame(function() {
+            if(!lastCalledTime) {
+                lastCalledTime = Date.now();
+                fps = 0;
+                return;
+            }
+            let delta = (Date.now() - lastCalledTime)/1000;
+            lastCalledTime = Date.now();
+            fps = 1/delta;
+            fpsDisplay.innerText = Math.floor(fps)+" fps";
+            update();
+        });
+
+        if (snapping) {
+            for (let s of snap) {
+                if (now.x > s.x - 24 && now.x < s.x + 24 && now.y > s.y - 24 && now.y < s.y + 24) {
+                    now = { x: s.x, y: s.y };
+                    snapped = true;
+                    break;
+                } else {
+                    snapped = false;
+                }
+            }
+        } else {
+            snapped = false;
+        }
+        if (!drawed) {
+            selected2 = now;
+        }
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        if (!drawed) {
+            drawBoard();
+            if (!snapped) {
+                ctx.beginPath();
+                ctx.strokeRect(now.x, now.y, 1, 1);
+                ctx.stroke();
+            } else {
+                ctx.beginPath();
+                ctx.arc(now.x, now.y, 6, 0, 2 * Math.PI, true);
+                ctx.stroke();
+            }
+        }
+
+        if (selected && selected2) {
+            let r = (selected.x - selected2.x)*0.7;
+            r = (r<60)? 60 : r;
+            let lc = selected.x + r;
+            let nc = selected2.x - r;
+            if ((selected2.x - selected.x)/2 > 60) {
+                lc = selected2.x + (selected.x - selected2.x) / 2;
+                nc = lc;
+            }
+
+            if (!drawed) {
+                ctx.beginPath();
+                ctx.moveTo(selected.x, selected.y);
+                ctx.lineTo(lc, selected.y);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(nc, selected2.y);
+                ctx.lineTo(selected2.x, selected2.y);
+                ctx.stroke();
+            }
+
+            ctx.beginPath();
+            ctx.moveTo(selected.x, selected.y);
+            ctx.bezierCurveTo(lc,selected.y, nc,selected2.y , selected2.x, selected2.y);
+            ctx.stroke();
+        }
+    }
+    update();
+
+    document.addEventListener('keydown', (event) => {
+        if (event.shiftKey) {
+            snapping = false;
+        }
+    });
+    document.addEventListener('keyup', (event) => {
+        snapping = true;
+    });
+</script>
+
+</body>
+</html>

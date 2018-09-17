@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tester</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+</head>
+<body>
+    <div style="width:85%;">
+        <canvas id="myChart"></canvas>
+    </div>
+    <button onclick="before()" id="btnBefo"><<</button>
+    <button onclick="add(100)">+100</button>
+    <button onclick="add(50)">+50</button>
+    <button onclick="add(20)">+20</button>
+    <button onclick="add(10)">+10</button>
+    <button onclick="add(5)">+5</button>
+    <button onclick="pause()" id="btnPause" style="width: 60px">pause</button>
+    <button onclick="add(-5)">-5</button>
+    <button onclick="add(-10)">-10</button>
+    <button onclick="add(-20)">-20</button>
+    <button onclick="add(-50)">-50</button>
+    <button onclick="add(-100)">-100</button>
+    <button onclick="next()" id="btnNext">>></button>
+    <script>
+        window.chartColors = {
+            red: 'rgb(255, 99, 132)',
+            orange: 'rgb(255, 159, 64)',
+            yellow: 'rgb(255, 205, 86)',
+            green: 'rgb(75, 192, 192)',
+            blue: 'rgb(54, 162, 235)',
+            purple: 'rgb(153, 102, 255)',
+            grey: 'rgb(201, 203, 207)'
+        };
+
+        let labels = [];
+        let rawData = [];
+        let smoothedData = [];
+        let finalData = [];
+        let actualData = [];
+
+        let ctx = document.getElementById("myChart").getContext('2d');
+        let myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'raw barometer',
+                        data: rawData,
+                        borderColor: window.chartColors.red,
+                        backgroundColor: 'rgba(0, 0, 0, 0)',
+                        fill: false,
+                        cubicInterpolationMode: 'monotone'
+                    },
+                    {
+                        label: 'smoothed barometer',
+                        data: smoothedData,
+                        borderColor: window.chartColors.blue,
+                        backgroundColor: 'rgba(0, 0, 0, 0)',
+                        fill: false,
+                        cubicInterpolationMode: 'monotone'
+                    },
+                    {
+                        label: 'final barometer',
+                        data: finalData,
+                        borderColor: window.chartColors.green,
+                        backgroundColor: 'rgba(0, 0, 0, 0)',
+                        fill: false,
+                        cubicInterpolationMode: 'monotone'
+                    },
+                    {
+                        label: 'actual barometer',
+                        data: actualData,
+                        borderColor: window.chartColors.grey,
+                        backgroundColor: 'rgba(0, 0, 0, 0)',
+                        fill: false,
+                        cubicInterpolationMode: 'monotone'
+                    }
+                ],
+            },
+            options: {
+                responsive: true,
+                tooltips: {
+                    mode: 'index'
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Value'
+                        },
+                        ticks: {
+                            suggestedMin: 0,
+                            suggestedMax: 100,
+                        }
+                    }]
+                }
+            }
+        });
+
+        let timeoutUpdate = undefined;
+
+        let historyLabels = [];
+        let historyRawData = [];
+        let historySmoothedData = [];
+        let historyFinalData = [];
+        let historyActualData = [];
+        let pastedLabels = [];
+        let pastedRawData = [];
+        let pastedSmoothedData = [];
+        let pastedFinalData = [];
+        let pastedActualData = [];
+
+        let play = true;
+        let barometer = 50;
+
+        function add(num) {
+            barometer += num;
+        }
+        const btnPause = document.getElementById("btnPause");
+        const btnNext = document.getElementById("btnNext");
+        const btnBefo = document.getElementById("btnBefo");
+        btnNext.disabled = true;
+        btnBefo.disabled = true;
+        function pause() {
+            if (play) {
+                clearInterval(timeoutUpdate);
+                play = false;
+                btnPause.innerText = "play";
+                updateGUI();
+            } else {
+                play = true;
+                update();
+                btnPause.innerText = "pause";
+                updateGUI();
+            }
+        }
+        function before() {
+            labels.unshift(historyLabels.pop());
+            rawData.unshift(historyRawData.pop());
+            smoothedData.unshift(historySmoothedData.pop());
+            finalData.unshift(historyFinalData.pop());
+            actualData.unshift(historyActualData.pop());
+
+            pastedLabels.unshift(labels.pop());
+            pastedRawData.unshift(rawData.pop());
+            pastedSmoothedData.unshift(smoothedData.pop());
+            pastedFinalData.unshift(finalData.pop());
+            pastedActualData.unshift(actualData.pop());
+
+            updateGUI();
+            myChart.update();
+        }
+        function next() {
+            labels.push(pastedLabels.shift());
+            rawData.push(pastedRawData.shift());
+            smoothedData.push(pastedSmoothedData.shift());
+            finalData.push(pastedFinalData.shift());
+            actualData.push(pastedActualData.shift());
+
+            historyLabels.push(labels.shift());
+            historyRawData.push(rawData.shift());
+            historySmoothedData.push(smoothedData.shift());
+            historyFinalData.push(finalData.shift());
+            historyActualData.push(actualData.shift());
+
+            updateGUI();
+            myChart.update();
+        }
+
+        let i = 1;
+        let lastFour = [];
+        play = false;
+        for(let id = 1; id <= 49; id++) {
+            update();
+        }
+        play = true;
+        update();
+
+        function update() {
+            labels.push(i++);
+
+            actualData.push(barometer);
+
+            let newBarometer = barometer + parseFloat((Math.random() * (-20 - 20) + 20).toFixed(4));
+            rawData.push(newBarometer);
+
+            lastFour.push(newBarometer);
+            let smoothing = true;
+            if (lastFour.length > 4) {
+                lastFour.shift();
+                /* method1
+                const avg = lastFour.reduce(getSum)/4;
+                smoothing = (Math.abs(avg-newBarometer) < 15);
+                /* */
+                /* method 2 */
+                let sum = 0;
+                for (let idx = 1; idx < 4; idx++) {
+                    sum += Math.abs(lastFour[idx] - lastFour[idx-1]);
+                }
+                smoothing = ( sum/4 < 25);
+                /* */
+            }
+
+            let smoothBarometer = smoothedData[smoothedData.length - 1] || newBarometer;
+            smoothBarometer = smoothBarometer * .95 + newBarometer * .05;
+            smoothedData.push(smoothBarometer);
+
+            let finalSmoothBarometer = newBarometer;
+            if (smoothing) {
+                finalSmoothBarometer = finalData[finalData.length - 1] || newBarometer;
+                finalSmoothBarometer = finalSmoothBarometer * .95 + newBarometer * .05;
+            }
+            finalData.push( finalSmoothBarometer );
+
+            if (labels.length > 50) {
+                historyLabels.push(labels.shift());
+                historyRawData.push(rawData.shift());
+                historySmoothedData.push(smoothedData.shift());
+                historyFinalData.push(finalData.shift());
+                historyActualData.push(actualData.shift());
+            }
+
+            myChart.update();
+
+            if (play) {
+                timeoutUpdate = setTimeout(() => {
+                    update();
+                }, 100);
+            }
+        }
+        //update();
+
+        function updateGUI() {
+            btnBefo.disabled = !(historyLabels.length > 0 && !play);
+            btnNext.disabled = !(pastedLabels.length > 0 && !play);
+            btnPause.disabled = (pastedLabels.length > 0 && !play);
+        }
+
+
+        function getSum(total, num) {
+            return total + num;
+        }
+    </script>
+</body>
+</html>

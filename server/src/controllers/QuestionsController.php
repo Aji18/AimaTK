@@ -7,15 +7,17 @@ class QuestionsController {
     private static $quest = 'Q';
 
     public static function index(\Klein\Request $req, \Klein\Response $res, $src, $app) {
-        $questions      = $app->db::findAll('questions');
+        $questions      = $app->db::findAll('questions', 'ORDER BY subdimension ASC, number ASC');
 
         $retval = new \stdClass();
         foreach ($questions as $question) {
             if ($question->subdimension === NULL) {
                 $dimensionID        = $question->id;
+
                 $d = $retval->$dimensionID = new \stdClass();
+
                 $d->id              = $dimensionID;
-                $d->dimension       = $question->dimension;
+                $d->dimension       = (int)$question->dimension;
                 $d->name            = $question->question;
                 $d->subdimensions   = new \stdClass();
             } else if ($question->number === NULL) {
@@ -23,8 +25,9 @@ class QuestionsController {
                 $subdimensionID     = $question->id;
 
                 $ssdm = $retval->$dimensionID->subdimensions->$subdimensionID = new \stdClass();
+
                 $ssdm->id           = $subdimensionID;
-                $ssdm->subdimension = $question->subdimension;
+                $ssdm->subdimension = (int)$question->subdimension;
                 $ssdm->name         = $question->question;
                 $ssdm->questions    = new \stdClass();
             } else {
@@ -32,14 +35,17 @@ class QuestionsController {
                 $subdimensionID = $question->rsubdimension_id;
                 $questionID     = $question->id;
 
-                $q = $retval->$dimensionID->subdimensions->$subdimensionID->questions->$questionID = new \stdClass();
-                $q->id          = $questionID;
-                $q->number      = $question->number;
-                $q->question    = $question->question;
-                $q->answers     = array();
+                $q = $retval->$dimensionID;
+                $r = $q->subdimensions->$subdimensionID;
+                $s = $r->questions->$questionID = new \stdClass();
+
+                $s->id          = $questionID;
+                $s->number      = (int)$question->number;
+                $s->question    = $question->question;
+                $s->answers     = array();
 
                 foreach (unserialize($question->answers) as $answer)
-                    $q->answers[] = json_decode($answer);
+                    $s->answers[] = json_decode($answer);
             }
         };
         $res->json(stdToArray($retval));
