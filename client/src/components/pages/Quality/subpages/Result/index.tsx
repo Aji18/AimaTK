@@ -168,7 +168,7 @@ class Result extends React.Component<IResultPropsState, IResultState> {
     }
 
     private processScore = (props: IResultPropsState) => {
-        const score: IScore[] = [];
+        let score: IScore[] = [];
         const tScore: IScore = {
             dimension: "Total",
             dimensionName: "(1+2+3+4)",
@@ -206,6 +206,8 @@ class Result extends React.Component<IResultPropsState, IResultState> {
         });
         tScore.score.scoreCriteria = scoreSumToEnum(5, tScore.score.scoreSum);
         score.push(tScore);
+
+        score = _.sortBy( score, [ 'dimension' ] );
 
         this.setState({ score });
     };

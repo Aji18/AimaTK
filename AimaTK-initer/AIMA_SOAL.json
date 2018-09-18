@@ -1,0 +1,2170 @@
+[
+  {
+    "dimension": 1,
+    "name": "Pendidik Dan Tenaga Kependidikan",
+    "subdimensions": [
+      {
+        "subdimension": 1,
+        "name": "Kepala TK",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Kualifikasi akademik Kepala TK adalah mempunyai kualifikasi guru TK, usia pada waktu pengangkatan maksimal 55 tahun, pengalaman minimal 3 tahun menjadi guru TK. Jika PNS pada waktu pengangkatan minimal Penata Muda Tk I/IIIb apabila non PNS setara dengan golongan yang dikeluarkan oleh yayasan. Sertifikat lulus seleksi calon kepala TK.",
+            "answers": [
+              {
+                "answer": "Terpenuhi 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terpenuhi 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terpenuhi 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terpenuhi 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Kopetensi Kepala TK mencakup: kopentensi kepribadian, sosial, manajerial, kewirausahaan, dan supervisi.",
+            "answers": [
+              {
+                "answer": "Terpenuhi 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terpenuhi 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terpenuhi 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terpenuhi 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Kepala TK melaksanakan tugas: administrasi, pengelolaan, pengembangan, pengawasan, dan pelayanan.",
+            "answers": [
+              {
+                "answer": "Melaksanakan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melaksanakan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melaksanakan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melaksanakan",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 2,
+        "name": "Guru",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Kualifikasi akademik guru: ijazah D-IV/S1 PG PAUD dari program studi yang terakreditasi atau ijazah D-IV/S1 dari kependidikan lain yang relevan dan memiliki sertifikat pendidikan profesi guru (PLPG) PAUD dari perguruan tinggi yang terakreditasi.",
+            "answers": [
+              {
+                "answer": "Terpenuhi 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terpenuhi 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terpenuhi 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terpenuhi 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Kopentensi guru yaitu meliputi pedagogik, kepribadian, sosial, dan profesional.",
+            "answers": [
+              {
+                "answer": "Terpenuhi 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terpenuhi 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terpenuhi 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terpenuhi 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Pendidik melaksanakan tugas mendidik, yaitu: merencanakan, melaksanakan, evaluasi pembelajaran, melakukan pendampingan, dan pembinaan.",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 3,
+        "name": "Staf/TU/TAS",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Kualifikasi akademik tenaga administrasi (TU) yaitu ijazah minimal SMA.",
+            "answers": [
+              {
+                "answer": "Terpenuhi 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terpenuhi 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terpenuhi 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terpenuhi 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Kopentensi tenaga administrasi (TU) adalah kopetensi kepribadian, profesional, sosial, manajerial.",
+            "answers": [
+              {
+                "answer": "Terpenuhi 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terpenuhi 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terpenuhi 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terpenuhi 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Lembaga TK mengadministrasikan/mendokumentasikan tentang pendidikan dan tenaga kependidikan dengan baik.",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dimension": 2,
+    "name": "Manajemen Dan Kepemimpinan",
+    "subdimensions": [
+      {
+        "subdimension": 1,
+        "name": "Administrasi Sekolah",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Tersedianya buku administrasi Lembaga TK: surat menyurat, dokumen akreditasi, EDS, Buku induk anak, buku tamu, buku mutasi, buku kritik dan saran, buku agenda, buku klaper, buku piket, buku monitoring, dll.). ",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Tersedianya administrasi anak  (penerimaan anak baru, data anak,  absensi, prestasi).",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Tersedianya administrasi pendidik dan tenaga kependidikan (absensi, kegiatan, dll.).",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 2,
+        "name": "Kepemimpinan Kepala TK",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Kepala TK mempunyai rencana, proses, dan laporan pengawasan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Adanya dokumen prestasi kerja Lembaga TK.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Tersedianya dokumen kinerja kepala TK dan guru.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 3,
+        "name": "Organisasi Sekolah",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Lembaga TK mempunyai panduan pelaksanaan TK.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Lembaga TK mempunyai rumusan visi, misi, dan tujuan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Lembaga TK melakukan sosialisasi visi, misi, dan tujuan.",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Tersedianya rencana kerja 5 tahunan dan 1 tahunan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "question": "Tersedianya struktur organisasi dan tupoksi.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "question": "Tersedianya Standar Operasional Prosedur (SOP) pada setiap kegiatan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "question": "Lembaga TK menjalankan Sistem Informasi Manajemen (papan pengumuman, brosur/selebaran, penyebaran informasi melalui HP, internet, koran, TV, radio, dll).",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 4,
+        "name": "Pembiayaan Sekolah",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Lembaga TK mempunyai Rancangan Anggaran Belanja (RAB) TK.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Lembaga TK mencatat sumber dana Lembaga TK per tahun.",
+            "answers": [
+              {
+                "answer": "Mencatat dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Mencatat dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Mencatat dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak mencatat",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Tersedianya laporan keuangan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Tersedianya dokumen administrasi keuangan (buku kas, buku pengeluaran, buku penerimaan, buku gaji/honor, inventaris kekayaan).",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dimension": 3,
+    "name": "Kegiatan Belajar Mengajar",
+    "subdimensions": [
+      {
+        "subdimension": 1,
+        "name": "Kurikulum",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Lembaga TK melaksanakan kurikulum yang berlaku.",
+            "answers": [
+              {
+                "answer": "Terlaksana 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terlaksana 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terlaksana 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terlaksana 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Lembaga TK mengadakan peninjauan kembali terhadap pelaksanaan kurikulum.",
+            "answers": [
+              {
+                "answer": "Setiap tahun sekali",
+                "score": 4
+              },
+              {
+                "answer": "Setiap 2 tahun sekali",
+                "score": 3
+              },
+              {
+                "answer": "Setiap 3 tahun sekali",
+                "score": 2
+              },
+              {
+                "answer": "Tidak pernah",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Lembaga TK mempunyai Prosem, RPPM, RPPH pembelajaran.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Lembaga TK mempunyai jadwal pelajaran.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "question": "Lembaga TK mempunyai kelender pendidikan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 2,
+        "name": "Mengajar dan Perawatan Anak",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Dalam melaksanakan tugas, guru melaksanakan pembelajaran holistik (kesehatan, gizi, rangsangan pendidikan, pengasuhan, perlindungan).",
+            "answers": [
+              {
+                "answer": "Terlaksana 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terlaksana 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terlaksana 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terlaksana 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Guru mempunyai Rencana Program Pembelajaran (Prosem) yang terdiri dari tema bulanan, sub tema, strategi, capaian aspek perkembangan, evaluasi, alokasi waktu.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Guru mempunyai Rencana Program Pembelajaran Mingguan (RPPM) yang terdiri: tujuan pembelajaran, strategi, materi, alokasi waktu.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Guru mempunyai Rencana Program Pembelajaran Harian (RPPH) yang terdiri: tanggal, bulan, tahun penggunaan RPPH, tema/sub tema, alokasi waktu, materi, strategi, alat permainan edukatif, sumber belajar, penilaian.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "question": "Guru meningkatkan motivasi, kecakapan, dan kenyamanan kepada anak.",
+            "answers": [
+              {
+                "answer": "Menjalankan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Menjalankan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Menjalankan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak menjalankan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "question": "Guru membesarkan hati, support, mengembangkan pembelajaran kolaboratif.",
+            "answers": [
+              {
+                "answer": "Terlaksana 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terlaksana 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terlaksana 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terlaksana 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "question": "Guru memberikan keleluasaan kepada anak untuk memilih media sesuai dengan bakat dan minat anak.",
+            "answers": [
+              {
+                "answer": "Menjalankan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Menjalankan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Menjalankan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak menjalankan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "question": "Guru memberikan keleluasaan terhadap dasar-dasar seni (mewarna, seni pahat, seni patung, menggambar, dll).",
+            "answers": [
+              {
+                "answer": "Menjalankan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Menjalankan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Menjalankan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak menjalankan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "question": "Guru mendengarkan dan mengimplementasikan ide anak dalam sebuah proyek.",
+            "answers": [
+              {
+                "answer": "Menjalankan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Menjalankan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Menjalankan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak menjalankan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "question": "Guru mendokumentasikan hasil dari kreativitas anak.",
+            "answers": [
+              {
+                "answer": "Menjalankan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Menjalankan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Menjalankan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak menjalankan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "question": "Guru melakukan portofolio hasil kerja anak.",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "question": "Guru membangun komunikasi dengan orangtua anak agar orangtua merasa terlibat dalam perkembangan anak.",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 3,
+        "name": "Kesehatan Anak",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Lembaga TK memberikan layanan kesehatan anak (jadwal makan bersama/makanan tambahan).",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Guru menjaga kesehatan anak dengan cara memeriksa kesehatan kuku, telinga, gigi, kebersihan badan, dan pakaian.",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Lembaga TK bekerjasama dengan puskesmas untuk pemberian gizi, vitamin, mengkur Tinggi Badan, Berat Badan, Lingkar Kepala Atas, dan Lingkar Lengan Atas.",
+            "answers": [
+              {
+                "answer": "Bekerjasama dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Bekerjasama dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Bekerjasama tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan bekerjasama",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Guru mencatat riwayat kesehatan anak.",
+            "answers": [
+              {
+                "answer": "Mencatat dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Mencatat dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Mencatat tetapi tidak lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak mencatat ",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 4,
+        "name": "Tumbuh Kembang Anak",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Dalam pembelajaran, guru berusaha mencapai tingkat perkembangan anak dalam 6 aspek (nilai agama dan moral, fisik-motorik, kognitif, bahasa, sosial-emosional, dan seni).",
+            "answers": [
+              {
+                "answer": "Terlaksana 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terlaksana 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terlaksana 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terlaksana 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Guru mendokumentasikan/foto kegiatan pencapaian perkembangan anak.",
+            "answers": [
+              {
+                "answer": "Mendokumentasikan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Mendokumentasikan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Mendokumentasikan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak mendokumentasikan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Guru mencatat penanganan khusus/penghambat tumbuh kembang anak.",
+            "answers": [
+              {
+                "answer": "Mencatat dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Mencatat dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Mencatat tetapi tidak lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak mencatat ",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Lembaga TK mengadakan tes psikologi untuk mengetahui bakat dan minat anak.",
+            "answers": [
+              {
+                "answer": "Melakukan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melakukan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melakukan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melakukan",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 5,
+        "name": "Relasi Anak",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Adanya relasi antara anak dengan guru.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan baik relasinya",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang baik relasinya",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada relasi",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Adanya relasi antara anak dengan teman.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan baik relasinya",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang baik relasinya",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada relasi",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Adanya relasi antara anak dengan warga sekolah atau lembaga TK.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan baik relasinya",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang baik relasinya",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada relasi",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 6,
+        "name": "Sarana Dan Prasarana",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Status lahan Lembaga TK.",
+            "answers": [
+              {
+                "answer": "Hak Milik sendiri",
+                "score": 4
+              },
+              {
+                "answer": "Hibah ",
+                "score": 3
+              },
+              {
+                "answer": "Hak guna bangun",
+                "score": 2
+              },
+              {
+                "answer": "Mengontrak",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Denah ruangan dan ukurannya.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Lembaga TK mempunyai dokumen/photo rungan dan halaman.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Lembaga TK mempunyai photo prasarana instalasi.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "question": "Lembaga TK memnginventarisasi sarana pendidikan (sarana bermain untuk anak).",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "question": "Lembaga TK mempunyai sarana bermain baik indoor maupun outdoor.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "question": "Lembaga TK mempunyai media pembelajaran.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "question": "Lembaga TK mempunyai sumber belajar/buku perpustakaan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "question": "Lembaga TK mempunyai alat-alat olah raga.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "question": "Lembaga TK mempunyai Kotak P3K.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "question": "Inventarisasi prasarana (gedung) yaitu: kelas, kamar mandi, dapur, UKS, lapangan, kantor.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 7,
+        "name": "Penilaian KBM",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Lembaga TK mempunyai panduan penilaian.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Lembaga TK mempunyai dokumen penilaian (harian, mingguan, bulanan, semester) dan teknik penilaian.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Guru melaksanakan teknik-teknik penilaian",
+            "answers": [
+              {
+                "answer": "Melaksanakan dengan sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Melaksanakan dengan baik",
+                "score": 3
+              },
+              {
+                "answer": "Melaksanakan tetapi kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak melaksanakan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Lembaga TK mempunyai bukti penyerahan laporan hasil penilaian kepada orangtua.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 8,
+        "name": "Standar Tingkat Pencapaian Perkembangan Anak (STPPA)",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Lembaga TK mempunyai data anak menyelesaikan pendidikan TK.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Lembaga TK memberikan LPA/sertifikat kepada anak didik yang sudah menempuh pendidikan TK.",
+            "answers": [
+              {
+                "answer": "Memberikan dengan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Memberikan dengan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Memberikan tidak lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak memberikan",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dimension": 4,
+    "name": "Peran Serta Masyarakat Dan Dukungan Kepada Anak",
+    "subdimensions": [
+      {
+        "subdimension": 1,
+        "name": "Komite Sekolah",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Komite sekolah atau lembaga TK mempunyai struktur organisasi, tupoksi, dan Standar Operasional Prosedur (SOP).",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Komite sekolah mempunyai program kerja (perencanaan, pelaksanaan, dan pelaporan).",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Tersedianya dokumen inventaris komite sekolah.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 2,
+        "name": "Hubungan lembaga dengan orangtua anak",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Buku penghubung dengan orangtua anak.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Program kerja hubungan lembaga TK dengan orangtua anak.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Pelaksanaan program kerja hubungan lembaga TK dengan orangtua anak",
+            "answers": [
+              {
+                "answer": "Terlaksana 76-100%",
+                "score": 4
+              },
+              {
+                "answer": "Terlaksana 51-75%",
+                "score": 3
+              },
+              {
+                "answer": "Terlaksana 26-50%",
+                "score": 2
+              },
+              {
+                "answer": "Terlaksana 0-25%",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Pelaporan pelaksanaan program kerja hubungan lembaga TK dengan orangtua anak.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "question": "Apabila ada anak sakit atau ada orangtua anak meninggal, pihak lembaga TK mengadakan kunjungan ke rumah.",
+            "answers": [
+              {
+                "answer": "Sangat sering",
+                "score": 4
+              },
+              {
+                "answer": "Sering",
+                "score": 3
+              },
+              {
+                "answer": "Jarang",
+                "score": 2
+              },
+              {
+                "answer": "Tidak pernah",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "question": "Adanya dokumentasi kegiatan lembaga TK yang berhubungan dengan orangtua anak, misal daftar hadir, notulen rapat, dan foto kegiatan, dan lain-lain.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 3,
+        "name": "Hubungan lembaga TK dengan masyarakat luas",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Lembaga TK mengadakan kerjasama dengan masyarakat luas seperti Puskesmas, perguruan tinggi, pemerintah, perusahaan, dan lain-lain.",
+            "answers": [
+              {
+                "answer": "Sangat sering",
+                "score": 4
+              },
+              {
+                "answer": "Sering",
+                "score": 3
+              },
+              {
+                "answer": "Jarang",
+                "score": 2
+              },
+              {
+                "answer": "Tidak pernah",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Lembaga TK mempunyai dokumen berupa MOU, proposal, pelaksanaan, pelaporan, foto kegiatan.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 4,
+        "name": "Iklim Lembaga TK",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Warga sekolah atau lembaga TK (Kepala TK, guru, Tenaga Administrasi, anak didik) merasakan adanya kenyamanan dalam menjalankan tugas masing-masing.",
+            "answers": [
+              {
+                "answer": "Sangat nyaman",
+                "score": 4
+              },
+              {
+                "answer": "Nyaman",
+                "score": 3
+              },
+              {
+                "answer": "Kurang Nyaman",
+                "score": 2
+              },
+              {
+                "answer": "Tidak Nyaman",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Warga sekolah atau lembaga TK merasakan keamanan dalam Lembaga TK.",
+            "answers": [
+              {
+                "answer": "Sangat Aman",
+                "score": 4
+              },
+              {
+                "answer": "Aman",
+                "score": 3
+              },
+              {
+                "answer": "Kurang Aman",
+                "score": 2
+              },
+              {
+                "answer": "Tidak aman",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Warga sekolah atau lembaga TK merasakan adanya demokratisasi di Lembaga TK.",
+            "answers": [
+              {
+                "answer": "Sangat demokratis",
+                "score": 4
+              },
+              {
+                "answer": "Demokratis",
+                "score": 3
+              },
+              {
+                "answer": "Kurang demokratis",
+                "score": 2
+              },
+              {
+                "answer": "Tidak demokratis",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "question": "Lembaga TK menggalakkan hal-hal secara edukatif.",
+            "answers": [
+              {
+                "answer": "Sangat menggalakkan",
+                "score": 4
+              },
+              {
+                "answer": "Menggalakkan",
+                "score": 3
+              },
+              {
+                "answer": "Kurang menggalakkan",
+                "score": 2
+              },
+              {
+                "answer": "Tidak menggalakkan",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "question": "Komunikasi antar warga sekolah atau lembaga TK berjalan.",
+            "answers": [
+              {
+                "answer": "Sangat baik",
+                "score": 4
+              },
+              {
+                "answer": "Baik",
+                "score": 3
+              },
+              {
+                "answer": "Kurang baik",
+                "score": 2
+              },
+              {
+                "answer": "Tidak baik",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "question": "Lembaga TK mempunyai tata tertib yang dipatuhi oleh semua warga sekolah.",
+            "answers": [
+              {
+                "answer": "Ada dan sangat lengkap",
+                "score": 4
+              },
+              {
+                "answer": "Ada dan lengkap",
+                "score": 3
+              },
+              {
+                "answer": "Ada dan kurang lengkap",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "question": "Iklim lembaga TK dalam suasana kondusif/suasana mendukung kegiatan belajar mengajar.",
+            "answers": [
+              {
+                "answer": "Sangat kondusif",
+                "score": 4
+              },
+              {
+                "answer": "Kondusif",
+                "score": 3
+              },
+              {
+                "answer": "Kurang kondusif",
+                "score": 2
+              },
+              {
+                "answer": "Tidak kondusif",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subdimension": 5,
+        "name": "Lingkungan Belajar",
+        "questions": [
+          {
+            "number": 1,
+            "question": "Ruangan dan lingkungan sekolah/lembaga TK dijaga kebersihannya.",
+            "answers": [
+              {
+                "answer": "Sangat Bersih",
+                "score": 4
+              },
+              {
+                "answer": "Bersih",
+                "score": 3
+              },
+              {
+                "answer": "Kurang bersih",
+                "score": 2
+              },
+              {
+                "answer": "Tidak bersih/kotor",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "question": "Lingkungan lembaga TK ramah anak: sejuk (adanya tumbuh-tumbuhan di lingkungan sekolah yang membuat udara menjadi sejuk tidak panas), rapi (baik dalam ruangan kelas maupun lingkungan sekolah tertata rapi tidak ada barang yang berserakan yang dapat menghambat KBM), dan indah (ruangan kelas dan lingkungan lembaga/sekolah enak dipandang).",
+            "answers": [
+              {
+                "answer": "Sangat ramah anak",
+                "score": 4
+              },
+              {
+                "answer": "Ramah anak",
+                "score": 3
+              },
+              {
+                "answer": "Kurang ramah",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ramah",
+                "score": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "question": "Adanya kata-kata bijak (tulisan atau simbol) di dalam ruangan kelas maupun lingkungan lembaga TK yang dapat memberikan motivasi, arahan, filosofi, edukasi kepada anak didik.",
+            "answers": [
+              {
+                "answer": "Sangat banyak jumlahnya",
+                "score": 4
+              },
+              {
+                "answer": "Banyak jumlahnya",
+                "score": 3
+              },
+              {
+                "answer": "Kurang banyak jumlahnya",
+                "score": 2
+              },
+              {
+                "answer": "Tidak ada",
+                "score": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
